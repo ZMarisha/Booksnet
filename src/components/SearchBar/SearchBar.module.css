@@ -1,0 +1,19 @@
+.search {
+    width: 100%;
+    padding: 40px 0;
+}
+.bgrImage {
+    background-image: url(../../images/bgr-searchBar.png);
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
+.search h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    color: var(--text-white);
+    padding-bottom: 35px;
+}

@@ -1,0 +1,29 @@
+.book {
+    background: var(--bgr-grey);
+    height: 450px;
+    padding: 20px 0;
+}
+.bookCover {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.bookCover img {
+    display: block;
+    width: 150px;
+    height: inherit;
+}
+.bookText {
+    padding: 20px;
+    font-size: 14px;
+}
+.bookCategories {
+    text-decoration: underline;
+    opacity: .6;
+}
+.bookTitle {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 20px auto 10px;
+}

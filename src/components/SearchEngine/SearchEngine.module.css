@@ -1,0 +1,43 @@
+.searchEngine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.searchCategories p span {
+    margin-right: 10px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.searchField {
+    width: 60%;
+    height: 40px;
+    padding: 5px 60px 5px 10px;
+    border: none;
+}
+.searchCategories {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.searchCategories p{
+    color: var(--text-white);
+    font-weight: 600;
+}
+.options {
+    width: 150px;
+    height: 30px;
+}
+.searchBtn {
+    height: 40px;
+    width: 40px;
+    background: var(--bgr-white);
+    border: none;
+}
+.searchBtn:disabled {
+    opacity: .3;
+}

@@ -1,0 +1,20 @@
+.bookList {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.5fr));
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.countFoundBook {
+    text-align: center;
+    opacity: 0.6;
+}
+.btnLoad {
+    display: flex;
+    justify-content: center;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
